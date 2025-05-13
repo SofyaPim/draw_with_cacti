@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body{
+  overflow: hidden;
+ 
+}
+#canvas1 {
+  background: linear-gradient(120deg,#d5eeff, #6d4f22);
+ position: absolute;
+ top: 0;left: 0;
+}
+
