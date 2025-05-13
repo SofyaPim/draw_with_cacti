@@ -36,8 +36,8 @@ window.addEventListener("load", function () {
     ctx.stroke();
     ctx.fill();
   }
-  drawShape(radius, radius * 1.2, radius * 0.45, 0.1, 5);
-  drawShape(100, 100, radius, inset, n);
+  drawShape(radius+ 50, (radius * 1.7) + 50, radius * 0.45, 0.1, 5);
+  drawShape(50, 50, radius, inset, n);
 
   window.addEventListener("mousemove", function (e) {
     if (drawing) {
